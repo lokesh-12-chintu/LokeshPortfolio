@@ -1,0 +1,62 @@
+.skill-box {
+    height: 200px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    text-decoration: none;
+  }
+  .skill-image-1 {
+    height: 150px;
+    width: 249px;
+  }
+  .template-container-1 {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/007/760/original/abstract-summer-and-spring-trendy-artistic-background-template-vector.jpg');
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-sub-box {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-para {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'goudy old style';
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .skill-image {
+    height: 300px;
+    width: 600px;
+  }
+  
+  .name-box {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c6deff;
+  }
+  
+  .font {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  .font-image {
+    height: 15px;
+    width: 15px;
+  }
+  

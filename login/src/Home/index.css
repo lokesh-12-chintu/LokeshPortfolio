@@ -1,0 +1,17 @@
+.home-container {
+    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149038179.jpg?w=2000');
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box {
+    color: #4863a0;
+    font-size: 30px;
+    font-family: 'gabriola';
+  }
+  

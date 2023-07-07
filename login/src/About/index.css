@@ -1,0 +1,34 @@
+.template-container {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/007/760/original/abstract-summer-and-spring-trendy-artistic-background-template-vector.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-box {
+    height: 480px;
+    width: 600px;
+    border: 1.5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-image {
+    height: 200px;
+    width: 550px;
+  }
+  
+  .horizontal-line {
+    border: 1px solid black;
+  }
+  .paragraph {
+    font-size: 35px;
+    font-family: 'chiller';
+    color: #5e5a80;
+    font-weight: bold;
+  }
+  

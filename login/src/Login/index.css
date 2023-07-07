@@ -1,0 +1,57 @@
+.login-container{
+    background-image:url("https://media.istockphoto.com/id/1134160027/photo/abstract-nature-background-dramatic-blue-sky-with-orange-colorful-sunset-clouds-in-twilight.jpg?s=612x612&w=0&k=20&c=To0OXRIoDGdWWNsbaXaL0ix3dIoE7ZtC4yHniEcDeTw=");
+    background-size:cover;
+    height:100vh;
+    color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.login-box{
+    height:500px;
+    width:800px;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/002/681/873/original/sky-sunset-flying-birds-clouds-foliage-nature-background-vector.jpg");
+    border:2px #ffffff solid;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+}
+.login-image{
+    height:400px;
+    width:350px;
+    border:2px #ffffff solid;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+
+}
+
+.input{
+    border-radius:5px;
+    border:2px solid pink;
+    padding:3px;
+}
+
+.input-1{
+    border-radius:5px;
+    border:2px solid pink;
+    width:100px;
+}
+
+.login-heading{
+    font-family:"gabriola";
+    font-size:40px;
+}
+.login-para{
+    font-family:"gabriola";
+    font-size:25px;
+}
+.register{
+    font-size:20px;
+}
