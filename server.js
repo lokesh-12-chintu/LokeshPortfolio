@@ -76,6 +76,7 @@ app.post('/login',async(req,res) => {
 
 app.get('/myprofile',middleware,async(req,res) => {
     try{
+        console.log(req.user)
         let exist = await Registeruser.findById(req.user.id)
         if(!exist){
             return res.status(400).send('User Not Found')
@@ -92,3 +93,6 @@ app.get('/myprofile',middleware,async(req,res) => {
 app.listen(5003, () => {
     console.log('Server Running....')
 })
+
+
+

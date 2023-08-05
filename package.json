@@ -1,28 +1,28 @@
 {
-  "name": "lokesh-3",
-  "version": "1.0.0",
-  "description": "login details",
-  "main": "server.js",
-  "scripts": {
-    "start": "nodemon server",
-    "server": "nodemon server",
-    "client": "npm start --prefix login",
-    "dev": "concurrently \" npm run server\" \"npm run client\" ",
-    "build":"npm i"
-  },
-  "author": "lokesh mani kumar",
-  "license": "ISC",
-  "dependencies": {
-    "concurrently": "^8.2.0",
-    "cors": "^2.8.5 ",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.0",
-    "middleware": "^1.0.0",
-    "mongodb": "^5.6.0",
-    "mongoose": "^7.3.1",
-    "nodemon": "^2.0.22"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "name": "lokesh-3",
+    "version": "1.0.0",
+    "description": "login details",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server",
+      "server": "nodemon server",
+      "client": "npm start --prefix login",
+      "dev": "concurrently \" npm run server\" \"npm run client\" "
+    },
+    "author": "lokesh mani kumar",
+    "license": "ISC",
+    "dependencies": {
+      "concurrently": "^8.2.0",
+      "cors": "^2.8.5 ",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.0",
+      "middleware": "^1.0.0",
+      "mongodb": "^5.6.0",
+      "mongoose": "^7.3.1",
+      "nodemon": "^2.0.22"
+    },
+    "devDependencies": {
+      "gh-pages": "^5.0.0"
+    }
   }
-}
+  

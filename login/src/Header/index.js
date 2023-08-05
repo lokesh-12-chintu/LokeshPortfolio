@@ -1,4 +1,4 @@
-import {useContext,useState,useEffect} from "react"
+import {useContext} from "react"
 import {store} from "../App"
 import {Navigate} from "react-router"
 import "./index.css"

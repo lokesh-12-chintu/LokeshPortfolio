@@ -24,7 +24,6 @@ const Login = () => {
     if(token){
         return <Navigate to = "/home" />
     }
-
     return(
         <div className = "login-container">
             <div className = "login-box"> 
@@ -36,7 +35,7 @@ const Login = () => {
                     <p className = "login-para">If you don't. Please register!!!</p>
                     <Link className = "register" to = "/register">Register</Link>
                 </form>
-                
+                 
             </div>
         </div>
     )
